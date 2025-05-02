@@ -1,0 +1,104 @@
+As a user I can create an rcode-item-level campaign
+As a user I can create an rcode-item-level campaign
+As a user I can create an order-level campaign
+As a user I can update item-level campaign
+As a user I can update item-level campaign
+As a user I can update item-level campaign
+As a user I can update item-level campaign
+As a user I can update item-level campaign
+As a user I can update item-level campaign
+As a user I can create an order-level campaign
+As a user I can update order-level campaign
+As a user I can create an rcode-item-level campaign
+As a user I can create an rcode-item-level campaign
+As a user I can deactivate an r-code item-level campaign
+As a user I can create an order-level campaign
+As a user I can create an rcode-item-level campaign
+As a user I can create an rcode-item-level campaign
+As a user I can update item-level campaign
+As a user I can create an rcode-item-level campaign
+As a user I can deactivate an r-code item-level campaign
+As a user I can create an rcode-item-level campaign
+As a user I can create an order-level campaign
+As a user I can create an order-level campaign
+As a user I can deactivate an order-level campaign
+As a user I can create an order-level campaign
+As a user I can update order-level campaign
+As a user I can deactivate an order-level campaign
+As a user I can update order-level campaign
+As a user I can deactivate an order-level campaign
+As a user I can create an order-level campaign
+As a user I can create an order-level campaign
+As a user I can cancel an item-level campaign
+As a user I can create an item-level campaign
+As a user I can create an item-level campaign
+As a user I can update and item-level campaign
+As a user I can deactivate an item-level campaign
+As a user I can update order-level campaign
+As a user I can deactivate an order-level campaign
+When the user click the submit button without entering the mandatory details in item-level campaign validate the warning messages
+When the user click the submit button without entering the mandatory details in item-level campaign validate the warning messages
+As a user I can cancel an item-level campaign
+As a user I can create an item-level campaign
+As a user I can deactivate an item-level campaign
+As a user I can create an order-level campaign
+As a user I can create an order-level campaign
+When the user click the submit button without entering the mandatory details in item-level campaign validate the warning messages
+When the user click the submit button without entering the mandatory details in item-level campaign validate the warning messages
+As a user I can cancel an item-level campaign
+As a user I can create an item-level campaign
+When the user click the submit button without entering the mandatory details in item-level campaign validate the warning messages
+As a user I can cancel an item-level campaign
+As a user I can create an item-level campaign
+As a user I can update and item-level campaign
+As a user I can deactivate an item-level campaign
+When the user click the submit button without entering the mandatory details in item-level campaign validate the warning messages
+As a user I can cancel an item-level campaign
+As a user I can create an order-level campaign
+As a user I can create an order-level campaign
+As a user I can update order-level campaign
+As a user I can deactivate an order-level campaign
+As a user I can create an rcode-item-level campaign
+As a user I can create an rcode-item-level campaign
+As a user I can update item-level campaign
+As a user I can deactivate an r-code item-level campaign
+As a user I can create an order-level campaign
+As a user I can update order-level campaign
+As a user I can deactivate an order-level campaign
+As a user I can create an order-level campaign
+As a user I can create an order-level campaign
+As a user I can create an order-level campaign
+As a user I can update order-level campaign
+As a user I can update order-level campaign
+As a user I can deactivate an order-level campaign
+As a user I can deactivate an r-code item-level campaign
+As a user I can deactivate an r-code item-level campaign
+As a user I can update item-level campaign
+As a user I can update order-level campaign
+As a user I can deactivate an r-code order-level campaign
+As a user I can update order-level campaign
+As a user I can deactivate an r-code order-level campaign
+As a user I can create an rcode-order-level campaign
+As a user I can deactivate an r-code order-level campaign
+As a user I can create an rcode-order-level campaign
+As a user I can create an item-level campaign
+As a user I can update and item-level campaign
+As a user I can deactivate an item-level campaign
+As a user I can update item-level campaign
+As a user I can deactivate an r-code item-level campaign
+As a user I can update item-level campaign
+As a user I can create an rcode-item-level campaign
+As a user I can deactivate an order-level campaign
+As a user I can deactivate an order-level campaign
+When the user click the submit button without entering the mandatory details in item-level campaign validate the warning messages
+As a user I can update and item-level campaign
+As a user I can deactivate an r-code order-level campaign
+As a user I can create an order-level campaign
+As a user I can create an order-level campaign
+As a user I can create an order-level campaign
+As a user I can create an order-level campaign
+As a user I can create an item-level campaign
+As a user I can create an item-level campaign
+As a user I can create an rcode-item-level campaign
+As a user I can create and deactivate an order-level campaign
+As a user I can create and deactivate an order-level campaign

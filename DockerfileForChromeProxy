@@ -1,0 +1,20 @@
+FROM       joyzoursky/python-chromedriver:3.7-selenium
+RUN        pip install pipenv && pip install PyYAML && pip install Appium-Python-Client && pip install requests && pip install allure-behave && pip install cryptography && pip install pymssql && pip install Faker && pip install browsermob-proxy
+
+ENV        SHELL=/bin/bash
+
+RUN        mkdir /usr/local/java
+ADD        jdk-8u241-linux-x64.tar.gz /usr/local/java/
+RUN        ln -s /usr/local/java/jdk1.8.0_241 /usr/local/java/jdk
+ENV        JAVA_HOME /usr/local/java/jdk
+ENV        JRE_HOME ${JAVA_HOME}/jre
+ENV        CLASSPATH .:${JAVA_HOME}/lib:${JRE_HOME}/lib
+ENV        PATH ${JAVA_HOME}/bin:$PATH
+
+COPY       . /app
+WORKDIR    /app
+
+RUN        chmod -R 777 /app/browsermob-proxy-2.1.4
+
+ENTRYPOINT ["pipenv", "run"]
+CMD        ["python"]

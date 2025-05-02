@@ -1,0 +1,32 @@
+timeout : 40
+interval : 0.5
+###############Users###################
+rewards:
+    rewards:
+        base_url: 'https://rewards-backoffice.central.iherbpreprod.io/rewards'
+        browser: 'CHROME'
+        test_user:
+             user_admin:
+                 Username: 'rsekaran'
+                 Password: 'gAAAAABdJXYREDT83TwV_1gYkeossa7g_rkTumOIAPmk0Oq71IuAtyex5FOx5pm8vjCd132VwrX0tjBWrxRiGX15WQNr2UrYag=='
+
+sql_database:
+    server : '10.85.0.20:1433'
+    user :  'biz'
+    password : 'bizExceptionPass'
+    database_discount : 'iHerb_LocalCheckout'
+
+api:
+    discount:
+        base_url: 'https://www.iherbpreprod.com/'
+        username:
+        password:
+    discount-web-portal:
+        base_url: 'https://www.iherbpreprod.com/'
+        username: 'admin'
+        password: 'd033e22ae348aeb5660fc2140aec35850c4da997'
+    discount-sdk:
+        base_url: 'https://www.iherbpreprod.com/'
+        username:
+        password:
+

@@ -1,0 +1,7 @@
+USE iHerb_Rewards
+SELECT * INTO #CampaignDelete FROM iHerb_Rewards.rewards.TBL_Campaign WHERE UserCreated = 'test-brm.campign-edi'
+DELETE FROM iHerb_Rewards.rewards.TBL_SegmentDetail WHERE SegmentId IN ( SELECT DISTINCT SegmentId FROM iHerb_Rewards.rewards.TBL_segment WHERE SegmentId IN (SELECT SegmentId FROM iHerb_Rewards.rewards.TBL_CampaignSegment WHERE CampaignId IN (SELECT CampaignId FROM #CampaignDelete)) AND SegmentId NOT IN (SELECT SegmentId FROM iHerb_Rewards.rewards.TBL_CampaignSegment WHERE CampaignId NOT IN (SELECT CampaignId FROM #CampaignDelete)))
+DELETE FROM iHerb_Rewards.rewards.TBL_Segment WHERE SegmentId IN (SELECT SegmentId FROM iHerb_Rewards.rewards.TBL_CampaignSegment WHERE CampaignId IN (SELECT CampaignId FROM #CampaignDelete)) AND SegmentId NOT IN (SELECT SegmentId FROM iHerb_Rewards.rewards.TBL_CampaignSegment WHERE CampaignId NOT IN (SELECT CampaignId FROM #CampaignDelete))
+DELETE FROM iHerb_Rewards.rewards.TBL_CampaignSegment WHERE CampaignId IN (SELECT CampaignId FROM #CampaignDelete)
+DELETE FROM iHerb_Rewards.rewards.TBL_CampaignVariable WHERE CampaignId IN (SELECT CampaignId FROM #CampaignDelete)
+DELETE FROM iHerb_Rewards.rewards.TBL_Campaign WHERE CampaignId IN  (SELECT CampaignId FROM #CampaignDelete)

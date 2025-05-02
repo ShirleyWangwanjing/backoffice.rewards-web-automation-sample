@@ -1,0 +1,59 @@
+timeout: 40
+interval: 0.5
+
+ui:
+    rewards:
+#        base_url: "https://client-rewards-backoffice.internal.iherbtest.io/rewards"
+#        base_url: "https://www.iherbtest.com/"
+        base_url: "https://www.baidu.com"
+#        browser: "headlesschromewithproxy"
+#        browser: "chromewithproxy"
+        browser: "headlesschrome"
+#        browser: "chromwithphoebeproxy"
+#        test_user:
+#            user_admin:
+#                Username: "rsekaran"
+#                Password: "gAAAAABdJXYREDT83TwV_1gYkeossa7g_rkTumOIAPmk0Oq71IuAtyex5FOx5pm8vjCd132VwrX0tjBWrxRiGX15WQNr2UrYag=="
+#            test_user_reader:
+#                Username: "TestCampaignReader"
+#                Password: "gAAAAABdJaA335aA-UGiyLOhHzteW6d5sxKWXlwQai-jgohUrU4mhIL-kTZk6LL8eUaBpXV3RZ-2G7pvnVU4K7iyosvvd3RnsTWRoeAp8HWx3BR-wMZfX_k="
+#            test_user_editor:
+#                Username: "TestCampaignEditor"
+#                Password: "gAAAAABdJaA335aA-UGiyLOhHzteW6d5sxKWXlwQai-jgohUrU4mhIL-kTZk6LL8eUaBpXV3RZ-2G7pvnVU4K7iyosvvd3RnsTWRoeAp8HWx3BR-wMZfX_k="
+#            test_user_approver:
+#                Username: "TestCampaignApprover"
+#                Password: "gAAAAABdJaA335aA-UGiyLOhHzteW6d5sxKWXlwQai-jgohUrU4mhIL-kTZk6LL8eUaBpXV3RZ-2G7pvnVU4K7iyosvvd3RnsTWRoeAp8HWx3BR-wMZfX_k="
+#        browser: 'zalenium'
+        test_user:
+            test_user_reader:
+                Username: "test-brm.campign-reader@iherb.com"
+                Password: "Password123"
+            test_user_editor:
+                Username: "test-brm.campign-editor@iherb.com"
+                Password: "iHerb&r5dD"
+            test_user_approver:
+                Username: "test-brm.campign-approver@iherb.com"
+                Password: "Password1234!"
+sql_database:
+    server: "TESTSQL1IRV.iherb.net" #TESTDB1IRP
+    user: "biz"
+    password: "bizExceptionPass"
+    database_discount: "iHerb_LocalCheckout"
+    database_promos: "iHerb_Shop"
+    database_rewards: "iHerb_Rewards"
+
+api:
+    discount:
+        base_url: "https://www.iherbtest.com/"
+        username:
+        password:
+    discount-web-portal:
+        base_url: "https://www.iherbtest.com/"
+        username: "admin"
+        password: "d033e22ae348aeb5660fc2140aec35850c4da997"
+    discount-sdk:
+        base_url: "https://www.iherbtest.com/"
+        username:
+        password:
+    rewards:
+        base_url: "https://rewards.internal.iherbtest.io/"
